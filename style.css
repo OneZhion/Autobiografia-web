@@ -1,0 +1,32 @@
+.nav-box {
+    width: 200px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.nav-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-box li {
+    margin-bottom: 10px;
+}
+
+.nav-box a {
+    display: block;
+    padding: 5px 10px;
+    color: #446688;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-box a:hover {
+    background-color: #e8e8e8;
+}
